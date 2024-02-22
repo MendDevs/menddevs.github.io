@@ -174,8 +174,8 @@ section{
     text-align: center;
 }
 
-.section_text_p1{
-    font-size: 1.75rem;
+.section_text_p2{
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -217,7 +217,7 @@ section{
     border: rgb(53,53,53)0.1rem solid;
 }
 
-.btn-color-1,
+.btn-color-1:hover,
 .btn-color-2:hover{
      cursor: pointer;
 }
