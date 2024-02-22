@@ -21,19 +21,29 @@
    <nav id="hamburger-nav">
       <div class = "logo"> Mender </div>
       <div class = "hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-             <span></span>
-             <span></span>
-             <span></span>
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span> <!-- Line 1 -->
+        <span></span> <!-- Line 2 -->
+        <span></span> <!-- Line 3 -->
+      </div>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container" >
+            <img src="./assets/myprofilepic.png" alt="Markie's profile pic">
         </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="tittle">Emmanuel Markie, Morris</h1>
+            <p class="section_text_p2">a Software and DevOps Engineer</p>
         </div>
-        </div>
-   </nav>
+    </section>
 <script src="javascript/script.js"></script>
 </body>
 </html>
