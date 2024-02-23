@@ -10,9 +10,11 @@ body{
     font-family:'Poppins',sans-serif;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
+
 
 p{
     color:rgb(85,85,85);
@@ -242,4 +244,43 @@ section{
 
 .btn-container{
     gap:1rem;
+}
+
+/*ABOUT SECtTION */
+#about{
+    position:relative;
+}
+
+.section_text_p1{
+     gap: 2rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+
+.title{ 
+     justify-content: center;
+     flex-direction: column;
+}
+
+.section-container{
+    display:flex;
+}
+
+.section_pic-container{
+    position: absolute;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+     position:absolute;
+     right: -5rem;
+     bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex:
 }
