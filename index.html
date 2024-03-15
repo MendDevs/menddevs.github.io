@@ -393,7 +393,13 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 <b>Emmanuel Markie, Morris</b>. All Rights Reserved.</p>
+      
+     <p>Copyright &copy; <span id="currentYear"></span> <b>Emmanuel Markie, Morris</b>. All Rights Reserved.</p>
+    
+        <script>
+          document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+
     </footer>
     <script src="javascript/script.js"></script>
   </body>
